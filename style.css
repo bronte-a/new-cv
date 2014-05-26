@@ -36,8 +36,42 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 127px;
-    background: #e3e2e2;
+    background: #ededef;
     border-radius: 200px;
+    text-align: center;
+}
+
+#scroll-contact {
+    width: 120px;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 67px;
+    color: #212121;
+    font-family: "Hallo sans";
+    font-size: 20pt; 
+    -webkit-transform: scale(1.17, 1);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#scroll-contact a:link {
+    color: #212121;
+    text-decoration: none;
+}
+
+#scroll-contact a:visited {
+    color: #212121;
+    text-decoration: none;
+}
+
+#scroll-contact a:hover {
+    color:#e3a840;
+    text-decoration: none;
+}
+
+#scroll-contact a:active {
+    color: #212121;
+    text-decoration: none;
 }
 
 #name {
