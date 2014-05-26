@@ -1,0 +1,522 @@
+ 
+@font-face {
+    font-family: "Hallo Sans";
+    src: url(fonts/Hallo sans.otf) format("opentype");
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+     }
+
+#main {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-image: url('../images/main.jpg');
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+
+#intro {
+    width: 365px;
+    height:90vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}   
+
+#photo {
+    width: 172px;
+    height: 172px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 127px;
+    z-index: 1;
+    background-image: url(../images/icon.png)
+}
+
+#photo-back {
+    position: absolute;
+    opacity: 0;
+    width: 172px;
+    height: 172px;
+    margin-left: 90px;
+    margin-top: 127px;
+    background: #ededef;
+    border-radius: 200px;
+    text-align: center;
+    z-index: 2;
+    -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#photo-back:hover {
+    display: block;
+    opacity: 0.8;
+    
+}
+
+#scroll-contact {
+    width: 120px;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 72px;
+    color: #403f3f;
+    font-family: "Hallo sans";
+    font-size: 20pt; 
+    -webkit-transform: scale(1.17, 1);
+    -ms-transform: scale(1.17, 1);
+    transform: scale(1.17, 1);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#scroll-contact a:link {
+    color: #212121;
+    text-decoration: none;
+}
+
+#scroll-contact a:visited {
+    color: #212121;
+    text-decoration: none;
+}
+
+#scroll-contact a:hover {
+    color:#e3a840;
+    text-decoration: none;
+}
+
+#scroll-contact a:active {
+    color: #212121;
+    text-decoration: none;
+}
+
+
+#name {
+    width: 277px;
+    height: auto;
+    font-family: "Hallo sans";
+    font-size: 37pt;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 320px;
+    -webkit-transform: scale(1.17, 1);
+    -ms-transform: scale(1.17, 1);
+    transform: scale(1.17, 1);
+}
+
+#desc {
+    padding-top: 58px;
+    height: auto;
+    width: 365px;
+    font-family: "Hallo sans";
+    font-size: 17pt;
+    text-align: center;
+    line-height: 25pt;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transform: scale(1.17, 1);
+    -ms-transform: scale(1.17, 1);
+    transform: scale(1.17, 1);
+}  
+
+#desc a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+#desc a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#desc a:hover {
+    color: #e3a840;
+    text-decoration: none;
+}
+
+
+#desc a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+#arrow {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#skills {
+    width: 920px;
+    height: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+}
+.skill {
+    width: 450px;
+    height: 78px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    float: left;
+}
+.skill-icon {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.skill-text{
+    width: auto;
+    height: auto;
+    font-family: "Hallo sans";
+    font-size: 25pt;
+    color: #98999a;
+    float: left;
+    margin-left: 35px;
+    margin-top: 10px;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+}
+.skill-text-short{
+    width: auto;
+    height: auto;
+    font-family: "Hallo sans";
+    font-size: 25pt;
+    color: #98999a;
+    float: left;
+    margin-left: 35px;
+    margin-top: 30px;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+}
+#skills-l {
+    width: 450px;
+    height: 500px;
+    float: left;
+}
+#skills-r {
+    width: 400px;
+    height: 500px;
+    float: right;
+    margin-left: 20px;
+}
+
+#soon {
+    width: 600px;
+    height: 135px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+}
+p2 {
+    font-family: "Hallo sans";
+    font-size: 25pt;
+    text-align:center;
+    color:#717172;
+    display: block;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+}
+p3 {
+    font-family: "Hallo sans";
+    font-size: 25pt;
+    text-align:center;
+    color:#98999a;
+    display: block;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+}
+
+#work {
+    width: 750px;
+    height: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 370px;
+    background-color: #e9e9e9;
+}
+
+#work-h {
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    padding-top: 47px;
+    font-family: "Hallo sans";
+    font-size: 50pt;
+    text-align: center;
+    display: block;
+    color:#e3a840;
+}
+
+#work-h a:link {
+    font-family: "Hallo sans";
+    font-size: 15pt;
+    text-align: center;
+    display: block;
+    color:#707071;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+}
+
+#work-h .linebreak {
+   display: block;
+   margin-bottom: 2px;
+}
+
+p4 {
+    font-family: "Hallo sans";
+    font-size: 45pt;
+    text-align: center;
+    display: block;
+    color:#e3a840;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+}
+
+p5 {
+    font-family: "Hallo sans", black;
+    font-weight: 700;
+    font-size: 25pt;
+    text-align: center;
+    display: block;
+    color:#e3a840;
+    padding-top: 50px;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+}
+
+p6 {
+    font-family: "Hallo sans";
+    font-size: 25pt;
+    text-align: center;
+    display: block;
+    color:#707071;
+    padding-top: 13px;
+    padding-bottom: 23px;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+}
+
+p7 {
+    font-family: "Hallo sans";
+    font-size: 15pt;
+    text-align: center;
+    display: block;
+    color:#707071;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+}
+p7 a:link {
+    color: #707071;
+    text-decoration: none;
+}
+
+p7 a:visited {
+    color: #707071;
+    text-decoration: none;
+}
+
+p7 a:hover {
+    color: #e3a840;
+    text-decoration: none;
+}
+
+
+p7 a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+p5 a:link {
+    color: #e3a840;
+    text-decoration: none;
+}
+
+p5 a:visited {
+    color: #e3a840;
+    text-decoration: none;
+}
+
+p5 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+p5 a:active {
+    color: #e3a840;
+    text-decoration: none;
+}
+
+#work-icon {
+    width: 40px;
+    height: 35px;
+    margin: auto;
+    margin-top: 56px;
+}
+
+p8 {
+    font-family: "Hallo sans";
+    font-size: 45pt;
+    text-align: center;
+    display: block;
+    color:#1f6bf6;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+    padding-bottom: 17px;
+}
+    
+#education {
+    height: 305px;
+    width: 368px;
+    margin: auto;
+    margin-top: 128px;
+    margin-bottom: 173px;
+}
+
+#ed-h {
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    font-family: "Hallo sans";
+    font-size: 45pt;
+    text-align: center;
+    display: block;
+    color:#7035b3;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+    letter-spacing:-2px
+}
+
+p9 {
+    font-family: "Hallo sans";
+    font-size: 25pt;
+    text-align: center;
+    display: block;
+    color:#575758;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+    padding-top: 64px;
+}
+
+p10 {
+    font-family: "Hallo sans";
+    font-size: 25pt;
+    text-align: center;
+    display: block;
+    color:#98999a;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+    padding-top: 16px;
+}
+
+#ed-icon {
+    margin-top: 60px;
+    width: 44px;
+    height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    height: 375px;
+    width: 100%;
+    background-color: #2e2d2d;
+}
+
+#contacts {
+    width: 198px;
+    height: 247px;
+    padding-top: 80px;
+    margin: auto;
+}
+
+#contact-h {
+    width: auto;
+    height: auto;
+    margin: auto;
+    font-family: "Hallo sans";
+    font-size: 25pt;
+    text-align: center;
+    display: block;
+    color:#fff;
+    padding-bottom: 33px;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+}
+
+.contact {
+    width: auto;
+    height: auto;
+    margin: auto;
+    font-family: "Hallo sans";
+    font-size: 17pt;
+    text-align: center;
+    display: block;
+    color:#fff;
+    padding-bottom: 15px;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+}
+
+.contact a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #e3a840;
+    text-decoration: none;
+}
+
+
+.contact a:active {
+    color: #fff;
+    text-decoration: none;
+}
+    
+#credit {
+    width: auto;
+    height: auto;
+    margin: auto;
+    font-family: "Hallo sans";
+    font-size: 10pt;
+    text-align: center;
+    display: block;
+    color:#555353;
+    padding-bottom: 15px;
+    -webkit-transform: scale(1.13, 1);
+    -ms-transform: scale(1.13, 1);
+    transform: scale(1.13, 1);
+}
+    
