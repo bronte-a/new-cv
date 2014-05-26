@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Bronte Adshead's Resume - Web Design & Development</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="hover.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+</head>
+
+<body>
+    
+  <section id="full-screen-intro">
+    
+    <div id="main">
+    
+     <div id="intro">
+         
+         <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+	<div class="flipper">
+		<div class="front">
+			<div id="photo"><img src="images/icon.png" /></div>
+		</div>
+		<div class="back">
+			<div id="photo-back"></div>
+		</div>
+	</div>
+</div>
+        
+    
+     <div id="name">Bronte Adshead</div>
+        
+     <div id="desc">I'm a student of Web Design & Development<br>at <a href="http://www.yoobee.ac.nz/">YooBee School of Design.</a></div>
+    
+    
+    
+    </div>
+        
+        <div id="arrow"><div class="hover"><a id="link" href="#"><img src="images/arrow.png" width="30px" height="30px" /></a></div></div>
+    
+    </div>
+
+ </section>
+    
+
+ <section id="skills">
+    
+    <a name="cv"></a>
+    
+    <div id="skills">
+        
+        <div id="skills title"><p8>Skills</p8></div>
+        
+        <div id="skills-l">
+        
+            <div class="skill">
+                <div class="skill-icon"><img src="images/icon1.png" /></div>
+                <div class="skill-text">Photoshop<br>& Indesign</div>
+            </div>
+        
+            <div class="skill">
+                <div class="skill-icon"><img src="images/icon2.png" /></div>
+                <div class="skill-text">Grapic Design<br>& Art Direction</div>
+            </div>
+        
+              <div class="skill">
+                <div class="skill-icon"><img src="images/icon3.png" /></div>
+                <div class="skill-text">Advertising & Social<br>Media Marketing</div>
+            </div>
+            
+                
+            <div class="skill">
+                <div class="skill-icon"><img src="images/icon4.png" /></div>
+                <div class="skill-text-short">Video Editing</div>
+            </div>
+            
+        
+          </div>
+         
+          <div id="skills-r">
+              
+            <div class="skill">
+                <div class="skill-icon"><img src="images/icon5.png" /></div>
+                <div class="skill-text">Web Design<br>& Development</div>
+            </div>
+              
+               
+            <div class="skill">
+                <div class="skill-icon"><img src="images/icon6.png" /></div>
+                <div class="skill-text">HTML5<br>& CSS3</div>
+            </div>
+
+        
+            <div class="skill">
+                <div class="skill-icon"><img src="images/icon7.png" /></div>
+                <div class="skill-text-short">Problem Solving</div>
+            </div>
+
+        
+            <div class="skill">
+                <div class="skill-icon"><img src="images/icon8.png" /></div>
+                <div class="skill-text-short">Copy Writing</div>
+            </div>
+              
+          </div>
+        
+        </div>
+    
+
+        <div id="soon">
+            
+            <p2>Coming Soon:</p2><br>
+            <p3>Javascript, Illustrator and Xcode.</p3>
+    
+        </div>
+
+ </section>
+    
+    
+ <section id="work-experience">
+
+        <div id="work">
+
+            <div id="work-h"><p4>Work Experience</p4></div>
+
+            <p5><a href="http://www.contagion.co.nz" target="_blank">Contagion</a></p5>
+            
+            <p6>Junior Creative Intern</p6>
+            
+            <p7>Jan 2014 - April 2014</p7>
+        
+            <p7><br>I developed my ideation skills and worked on campaigns<br>
+                for <a href="http://www.3news.co.nz/Ohope-named-most-loved-beach/tabid/423/articleID/335648/Default.aspx" target="_blank">AA</a>, MotherBase and Number One Shoes.</p7>
+            
+            <div id="work-icon"><img src="images/work-icon.png" /></div>
+            
+            
+         </div>
+     
+  </section>
+    
+    
+   
+ <section id="education">
+    
+    <div id="education">
+
+
+                <div id="ed-h">Education</div>
+
+    
+                <p9>Media Design School</p9>
+             
+                <p10>Diploma of Creative Advertising</p10>
+             
+                <div id="ed-icon"><img src="images/ed-icon.png" /></div>
+             
+       
+         </div>
+     
+  </section>
+    
+    
+  
+  <section id="footer">
+    
+    <div id="footer">
+    
+      <div id="contacts">
+          
+        <div id="contact-h">Contact</div>
+          
+        <div class ="contact"><a href="mailto:bronte_a@hotmail.co.nz" target="_top">bronte_a@hotmail.co.nz</a></div>
+        <div class ="contact"><a href="https://twitter.com/bronte_a_" target="_blank">Twitter: @bronte_a_</a></div>
+        <div class ="contact"><a href="https://github.com/bronte-a" target="_blank">GitHub: bronte-a</a></div>
+      </div>
+    
+        
+    <div id="credit">icons from othericons, photo from picjumbo, Hallo font.</div>
+        
+    </div>
+      
+ </section>
+
+    
+    
+</body>
+    
+<script>
+    function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+$("#link").click(function() {
+   scrollToAnchor('cv');
+});
+
+</script>
+
+</html>
