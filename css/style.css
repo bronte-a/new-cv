@@ -1,7 +1,7 @@
  
 @font-face {
-    font-family: HalloSans;
-    src: url('../fonts/Hallo_Sans.otf') format('opentype');
+    font-family: Hallosans;
+    src: url('../fonts/Hallo_sans.otf') format('opentype');
 }
 
 body {
@@ -100,7 +100,7 @@ body {
 #name {
     width: 277px;
     height: auto;
-    font-family: 'HalloSans', opentype;
+    font-family: 'Hallosans', opentype;
     font-size: 37pt;
     color: #fff;
     margin-left: auto;
