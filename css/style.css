@@ -1,7 +1,7 @@
  
 @font-face {
     font-family: HalloSans;
-    src: url(../fonts/Hallo_sans.otf) format: ('opentype');
+    src: url('../fonts/Hallo_sans.otf'') format('opentype');
 }
 
 body {
