@@ -1,9 +1,3 @@
- 
-@font-face {
-    font-family: "Hallo Sans";
-    src: url(../fonts/Hallo sans.otf) format("opentype");
-}
-
 body {
     padding: 0px;
     margin: 0px;
@@ -67,7 +61,7 @@ body {
     margin: 0 auto;
     padding-top: 72px;
     color: #403f3f;
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20pt; 
     -webkit-transform: scale(1.17, 1);
     -ms-transform: scale(1.17, 1);
@@ -100,7 +94,7 @@ body {
 #name {
     width: 277px;
     height: auto;
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 37pt;
     color: #fff;
     margin-left: auto;
@@ -115,7 +109,7 @@ body {
     padding-top: 58px;
     height: auto;
     width: 365px;
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 17pt;
     text-align: center;
     line-height: 25pt;
@@ -178,7 +172,7 @@ body {
 .skill-text{
     width: auto;
     height: auto;
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 25pt;
     color: #98999a;
     float: left;
@@ -191,7 +185,7 @@ body {
 .skill-text-short{
     width: auto;
     height: auto;
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 25pt;
     color: #98999a;
     float: left;
@@ -221,7 +215,7 @@ body {
     margin-top: 130px;
 }
 p2 {
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 25pt;
     text-align:center;
     color:#717172;
@@ -231,7 +225,7 @@ p2 {
     transform: scale(1.13, 1);
 }
 p3 {
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 25pt;
     text-align:center;
     color:#98999a;
@@ -255,7 +249,7 @@ p3 {
     height: 60px;
     margin: auto;
     padding-top: 47px;
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 50pt;
     text-align: center;
     display: block;
@@ -263,7 +257,7 @@ p3 {
 }
 
 #work-h a:link {
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 15pt;
     text-align: center;
     display: block;
@@ -279,7 +273,7 @@ p3 {
 }
 
 p4 {
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 45pt;
     text-align: center;
     display: block;
@@ -290,7 +284,7 @@ p4 {
 }
 
 p5 {
-    font-family: "Hallo sans", black;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     font-size: 25pt;
     text-align: center;
@@ -303,7 +297,7 @@ p5 {
 }
 
 p6 {
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 25pt;
     text-align: center;
     display: block;
@@ -316,7 +310,7 @@ p6 {
 }
 
 p7 {
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 15pt;
     text-align: center;
     display: block;
@@ -375,7 +369,7 @@ p5 a:active {
 }
 
 p8 {
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 45pt;
     text-align: center;
     display: block;
@@ -398,7 +392,7 @@ p8 {
     width: 300px;
     height: 60px;
     margin: auto;
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 45pt;
     text-align: center;
     display: block;
@@ -410,7 +404,7 @@ p8 {
 }
 
 p9 {
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 25pt;
     text-align: center;
     display: block;
@@ -422,7 +416,7 @@ p9 {
 }
 
 p10 {
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 25pt;
     text-align: center;
     display: block;
@@ -458,7 +452,7 @@ p10 {
     width: auto;
     height: auto;
     margin: auto;
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 25pt;
     text-align: center;
     display: block;
@@ -473,7 +467,7 @@ p10 {
     width: auto;
     height: auto;
     margin: auto;
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 17pt;
     text-align: center;
     display: block;
@@ -509,7 +503,7 @@ p10 {
     width: auto;
     height: auto;
     margin: auto;
-    font-family: "Hallo sans";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 10pt;
     text-align: center;
     display: block;
