@@ -100,7 +100,7 @@ body {
 #name {
     width: 277px;
     height: auto;
-    font-family: "HalloSans";
+    font-family: 'HalloSans', opentype;
     font-size: 37pt;
     color: #fff;
     margin-left: auto;
@@ -115,7 +115,7 @@ body {
     padding-top: 58px;
     height: auto;
     width: 365px;
-    font-family: "Hallo sans";
+    font-family: 'Hallo sans', opentype;
     font-size: 17pt;
     text-align: center;
     line-height: 25pt;
